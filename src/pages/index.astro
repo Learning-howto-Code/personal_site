@@ -1,0 +1,20 @@
+---
+import Welcome from '../components/Welcome.astro';
+import Layout from '../layouts/Layout.astro';
+
+const screen_break = "https://github.com/Learning-howto-Code/screen-break"
+const juggling_machine ="https://github.com/Learning-howto-Code/Juggling-Machine"
+const github="https://github.com/Learning-howto-Code"
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+	<h1>Hi!, I'm jake hopkins</h1>
+	<p>I love building things, whether it be <a href={screen_break}>a widget to help with your screen time</a>, or <a href={juggling_machine}>an automatic juggling machine</a>. 
+		Most of my projects are hardware related, but you'll definitely find me dabling in software from time to time, iterating my next neural network, or learning the basics of selfhosting.
+	</p>
+
+	<p>Located in the Bay Area, you might find at FRC tournamounts, where I'm the chief engineer for team 11243, or pulling an all nighter at a hackathon. But above all else I'm just having fun, and learning everything I can</p>
+	<p>You can find me on <a href={github}> github</a>, or email me at</p>
+</Layout>
